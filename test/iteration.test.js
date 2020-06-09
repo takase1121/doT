@@ -6,7 +6,7 @@ describe('iteration', function() {
     describe('without index', function() {
         it('should repeat string N times', function() {
             test([
-                '{{~it.arr:x}}*{{~}}',
+                '{{~it.arr:x}}*{{~ }}',
                 '{{~ it.arr:x }}*{{~}}',
                 '{{~ it.arr: x }}*{{~}}',
                 '{{~ it.arr :x }}*{{~}}'

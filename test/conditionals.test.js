@@ -10,11 +10,11 @@ describe('conditionals', function() {
         ];
 
         it('should evaluate condition and include template if valid', function() {
-            test(templates, {one: 1, two: 2}, '12')
+            test(templates, {one: 1, two: 2}, '12');
         });
 
         it('should evaluate condition and do NOT include template if invalid', function() {
-            test(templates, {one: 3, two: 2}, '2')
+            test(templates, {one: 3, two: 2}, '2');
         });
     });
 
