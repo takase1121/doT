@@ -1,4 +1,8 @@
-# doT
+# doT-json
+
+> **NOTE**: This is a fork of doT that removes HTMl stuffs (because I don't need them). I intend to use it to template json.
+Some things may not work, so don't use it in production. There are also some core changes.
+
 
 Created in search of the fastest and concise JavaScript templating function with emphasis on performance under V8 and nodejs. It shows great performance for both nodejs and browsers.
 
